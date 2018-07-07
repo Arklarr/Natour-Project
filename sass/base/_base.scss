@@ -1,0 +1,20 @@
+/* CSS Reset for reg/pseudo elements */
+*,
+*::after,
+*::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;   
+}
+/* Browser Default = 16px
+   We want 10px, for usuability (If user changes size/Zooms in)
+   We use percents. Desired px divide by default
+   10px/16px = 0.625. 62.5% */
+html {
+    //This defines what 1rem is
+    font-size: 62.5%;
+}
+
+body {
+    box-sizing: border-box;
+}
