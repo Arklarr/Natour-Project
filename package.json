@@ -13,5 +13,13 @@
   },
   "dependencies": {
     "live-server": "^1.2.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arklarr/sass-learning.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arklarr/sass-learning/issues"
+  },
+  "homepage": "https://github.com/Arklarr/sass-learning#readme"
 }
