@@ -34,6 +34,16 @@
             background-color: $color-white;
         }
     }
+
+    &--green {
+        background-color: $color-primary;
+        color: $color-white;
+    
+        &::after {
+            background-color: $color-primary;
+        }
+    }
+
     
     &::after {
         content: "";
@@ -53,7 +63,7 @@
         animation-fill-mode: backwards;
     }
 }
-    
+
 .btn-text {
     &:link,
     &:visited {
@@ -76,5 +86,5 @@
     &:active {
         box-shadow: 0 1rem 2rem rgba($color-black,.2);
         transform: translateY(0);
-        }
+    }
 }
